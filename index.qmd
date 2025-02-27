@@ -108,7 +108,7 @@ A simulated experiment was conducted with two conditions: Placebo and Amphetamin
 This simulation provides a framework for understanding how amphetamines might affect time perception, but it's important to note that real-world effects can be more complex and vary based on dosage, individual differences, and specific experimental conditions.
 
 ```{r}
-#| label: amphetamine
+#| label: amphetamine-exp
 #| code-fold: true
 #| warning: false
 
@@ -198,7 +198,7 @@ p <- ggbetweenstats(
 A simulated experiment was conducted with four conditions: Placebo, LSD 5ug, LSD 10ug, and LSD 20ug. Sixty simulated subjects were divided equally among the four conditions. Participants "estimated" time intervals of 0.8, 1.6, 2, 3, and 4 seconds, with five trials per interval. LSD was modeled as increasing perceived duration in a dose-dependent manner (drug_effects = c(1, 1.05, 1.1, 1.15)), with a corresponding increase in variability (noise_levels = c(0.1, 0.12, 0.15, 0.18)).
 
 ```{r}
-#| label: LSD
+#| label: LSD-exp
 #| code-fold: true
 #| warning: false
 # Set seed for reproducibility
